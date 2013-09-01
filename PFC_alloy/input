@@ -1,0 +1,24 @@
+0.8d0       ::dx
+0.01d0      ::dt
+0.6d0       ::t
+4.0d0       ::u
+1.d0        ::v
+0.008d0     ::w
+1.0d0       ::Box (=B^x)
+-1.8d0      ::B2l (=B_2^l)
+1.048d0     ::B0l (=Box+DB0l, changes as B0l changes)
+0.0d0       ::B0l_range (entire range to change B0l)
+1           ::B0l_stages (# of times B0l changes in temp range)
+50000      ::B0l_quench_time (tot iterations where B0l changes)
+4.0d0       ::RKK (=K)
+0.0d0       ::rno (=average density)
+-0.13d0     ::co  (average concentration)
+-0.1642d0   ::cs (solid bulk concentration
+0.0d0       ::eta  (solute expansion coefficient)
+1000        ::file_skip (how often to print output)
+50000      ::tmax (total time steps)
+256         ::Nx  (system size in "x" direction)
+256         ::Ny (system size in the "y" direction)
+15          ::Rad  (radius of initial seed)
+0           ::restart, 1=yes/0=no
+0      ::restart time

@@ -1,0 +1,11 @@
+0.4d0      ::dx
+0.008d0    ::dt
+1000       ::file_skip 
+50000      ::tmax 
+400        ::Nx
+400        ::Ny
+3.19d0     ::lambda
+0.55       ::OMAGA
+0.05       ::epsilon_4
+10         ::Rad
+0.15       ::k

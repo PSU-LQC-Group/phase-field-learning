@@ -1,0 +1,11 @@
+PROGRAM LOADER
+USE VARIABLES
+USE SOLVER
+IMPLICIT NONE
+
+
+call read_globals
+
+call calculate
+
+END PROGRAM LOADER
