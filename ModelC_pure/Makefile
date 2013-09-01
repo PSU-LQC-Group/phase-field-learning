@@ -1,5 +1,5 @@
-F90 = /sw/bin/g95
-F77 = /usr/bin/f77
+F90 = /usr/local/bin/gfortran
+F77 = /usr/local/bin/gfortran
 FFLAGS =
 ########################################################################
 MOD_OBJ =\
